@@ -20,5 +20,42 @@ namespace LinqWorkSheet
             }
             
         }
+        static void Main2() // ask michael, this would be skip one(index 0), why am i tied up on returning the first michael, 
+                            //silly AJ trix are for kids
+        {
+            List<string> names = new List<string>() { "mike", "brad", "nevin", "zack", "mike" };
+
+            var skipDuplicates = names.Skip(4);
+            foreach (var value in skipDuplicates)
+            {
+                Console.WriteLine("SKIP 0: {0}", value);
+            }
+           
+        }
+
+
+        static void Main3() 
+        {
+            List<string> namesClassGrades = new List<string>() 
+            { 
+                "80, 100, 92, 89, 65",
+                "93, 81, 78, 84, 69",
+                "73, 88, 83, 99, 69",
+                "98, 100, 66, 74, 55"
+            };
+
+
+
+
+        }
+
+
+
+
+
     }
+
+
+
+
 }
